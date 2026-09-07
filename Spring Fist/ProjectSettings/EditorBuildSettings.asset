@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: ee01d67bc97725641bf82d92c205d946
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 80023bd94c252564d987c44d48d79cca
+  - enabled: 0
+    path: Assets/Scenes/SpatialAnchor.unity
+    guid: cf893c66223a54d46928c9db486bbd65
+  m_configObjects:
+    Unity.XR.PXR.Settings: {fileID: 11400000, guid: 5f04c556de9373846be9eeb5cc508086, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ca5209414d828b94d96f15e8caa01c9a, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 5daf19410abd2a24494e5d86663a1619, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 63ab9c51299355943a02144e29253080, type: 2}
