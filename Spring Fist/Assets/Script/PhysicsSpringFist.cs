@@ -16,10 +16,18 @@ public class PhysicsSpringFist : MonoBehaviourPun, IPunObservable
     public bool canDamage=true;
     [Header("特效设置")]
     public ParticleSystem punchEffect; // 出拳特效（挂在拳头下的粒子，取消Play On Awake和Looping，常驻不销毁）
+    [Header("动作出拳设置")]
+    public float punchVelocityThreshold = 2.2f;   // 前向挥动速度阈值（米/秒），低于此速度不出拳
+    public float punchDirectionStrictness = 1.2f; // 前向分量必须超过横向/纵向分量的倍数，防止回收或横移误触发
+    public float velocitySmoothing = 10f;         // 速度平滑系数，过滤手柄抖动
     [Header("手柄设置")]
     private Transform RightController;
     private Transform handle; // 手柄的Transform引用
     public Transform fist ; // 手的Transform引用
+
+    private Vector3 _prevHandlePos;
+    private Vector3 _smoothedVelocity;
+    private bool _hasPrevHandlePos = false;
 
     
     private Vector3 _initialWorldPos;
@@ -83,18 +91,8 @@ if (tanHuang == null)
         if(!photonView.IsMine){
             return;
         }
-        // 检测VR右手柄的扳机键状态
-        var rightHandDevice = UnityEngine.XR.InputDevices.GetDeviceAtXRNode(UnityEngine.XR.XRNode.RightHand);
-        bool triggerValue = false;
-        bool hasTriggerValue = rightHandDevice.TryGetFeatureValue(UnityEngine.XR.CommonUsages.triggerButton, out triggerValue);
-        
-        // 处理出拳输入
-        if (hasTriggerValue && triggerValue && !_isPunching&&photonView.IsMine)
-        {
-           
-            FirePunch();
-            Debug.Log("出拳");
-        }
+        // 检测VR右手柄的出拳挥动动作（替代扳机键触发）
+        DetectPunchMotion();
         if(Input.GetKeyDown(fireKey)&& !_isPunching&&photonView.IsMine)
         {
             FirePunch();
@@ -119,6 +117,40 @@ if (tanHuang == null)
             EarlyRetractPunch();
         }
         
+    }
+
+    /// <summary>
+    /// 检测手柄向前挥动的出拳动作：手柄速度在本地方向上的前向分量(z)超过阈值，
+    /// 且明显大于横向(x)/纵向(y)分量时才判定为出拳；回收(z为负)或左右移动不触发
+    /// </summary>
+    void DetectPunchMotion()
+    {
+        if (handle == null || Time.deltaTime <= 0f)
+        {
+            return;
+        }
+
+        Vector3 currentPos = handle.position;
+        if (!_hasPrevHandlePos)
+        {
+            _prevHandlePos = currentPos;
+            _hasPrevHandlePos = true;
+            return;
+        }
+
+        Vector3 frameVelocity = (currentPos - _prevHandlePos) / Time.deltaTime;
+        _prevHandlePos = currentPos;
+        _smoothedVelocity = Vector3.Lerp(_smoothedVelocity, frameVelocity, Mathf.Clamp01(velocitySmoothing * Time.deltaTime));
+
+        Vector3 localVelocity = handle.InverseTransformDirection(_smoothedVelocity);
+        if (!_isPunching
+            && localVelocity.z > punchVelocityThreshold
+            && localVelocity.z > Mathf.Abs(localVelocity.x) * punchDirectionStrictness
+            && localVelocity.z > Mathf.Abs(localVelocity.y) * punchDirectionStrictness)
+        {
+            FirePunch();
+            Debug.Log("出拳");
+        }
     }
 
     void FirePunch()

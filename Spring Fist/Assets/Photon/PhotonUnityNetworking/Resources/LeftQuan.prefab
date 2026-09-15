@@ -212,6 +212,9 @@ MonoBehaviour:
   retractSpeed: 10
   Lefthandle: {fileID: 8038865797903626417}
   Leftfist: {fileID: 8038865797903626417}
+  punchVelocityThreshold: 1.5
+  punchDirectionStrictness: 1.2
+  velocitySmoothing: 10
   _isLeftPunching: 0
   _isLeftExtending: 0
   leftTanHuangModels: []

@@ -182,6 +182,9 @@ MonoBehaviour:
   retractSpeed: 10
   canDamage: 1
   punchEffect: {fileID: 1087966149675229065}
+  punchVelocityThreshold: 1.5
+  punchDirectionStrictness: 1.2
+  velocitySmoothing: 10
   fist: {fileID: 8038865797903626417}
   _isPunching: 0
   _isExtending: 0
