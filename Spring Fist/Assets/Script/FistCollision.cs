@@ -16,12 +16,11 @@ public class FistCollision : MonoBehaviourPun
     private const int PLAYER_HIT = 0;
     private const int SHIELD_HIT = 1;
 
-    private PhysicsSpringFist physicsSpringFist;
+    // 右手已改为发射拳头子弹（ProjectileFist），直接命中伤害只保留左手逻辑
     private LeftPhysicsSpringFist leftPhysicsSpringFist;
 
     private void Awake()
     {
-        physicsSpringFist = GetComponent<PhysicsSpringFist>();
         leftPhysicsSpringFist = GetComponent<LeftPhysicsSpringFist>();
     }
 
@@ -30,11 +29,10 @@ public class FistCollision : MonoBehaviourPun
         // 只有自己的拳头执行碰撞检测
         if (!photonView.IsMine) return;
 
-        // 判断当前是哪只拳头在攻击
-        bool rightHit = physicsSpringFist != null && physicsSpringFist._isExtending && physicsSpringFist.canDamage;
+        // 判断左拳是否在攻击
         bool leftHit = leftPhysicsSpringFist != null && leftPhysicsSpringFist._isLeftExtending && leftPhysicsSpringFist.canDamage;
 
-        if (!rightHit && !leftHit) return;
+        if (!leftHit) return;
 
         // 击中玩家：扣血 + 特效 + 音效
         if (other.CompareTag("Player"))
@@ -46,16 +44,8 @@ public class FistCollision : MonoBehaviourPun
 
             Vector3 hitPoint = GetHitPoint(other);
 
-            if (rightHit)
-            {
-                ProcessHit(targetPlayerPhotonView, hitPoint, PLAYER_HIT);
-                physicsSpringFist.canDamage = false;
-            }
-            else if (leftHit)
-            {
-                ProcessHit(targetPlayerPhotonView, hitPoint, PLAYER_HIT);
-                leftPhysicsSpringFist.canDamage = false;
-            }
+            ProcessHit(targetPlayerPhotonView, hitPoint, PLAYER_HIT);
+            leftPhysicsSpringFist.canDamage = false;
         }
 
         // 击中盾牌：特效 + 音效
@@ -68,16 +58,8 @@ public class FistCollision : MonoBehaviourPun
 
             Vector3 hitPoint = GetHitPoint(other);
 
-            if (rightHit)
-            {
-                PlayHitEffectAndSound(hitPoint, SHIELD_HIT);
-                physicsSpringFist.canDamage = false;
-            }
-            else if (leftHit)
-            {
-                PlayHitEffectAndSound(hitPoint, SHIELD_HIT);
-                leftPhysicsSpringFist.canDamage = false;
-            }
+            PlayHitEffectAndSound(hitPoint, SHIELD_HIT);
+            leftPhysicsSpringFist.canDamage = false;
         }
     }
 

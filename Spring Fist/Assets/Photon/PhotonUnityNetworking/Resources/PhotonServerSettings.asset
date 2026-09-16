@@ -55,6 +55,7 @@ MonoBehaviour:
   - RPC_StartRound
   - RPC_PlayPunchEffect
   - RPC_StopPunchEffect
+  - RPC_FireProjectile
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

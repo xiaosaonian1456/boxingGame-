@@ -11,7 +11,6 @@ public class TanHuang : MonoBehaviourPun,IPunObservable
     public GameObject Spring;        // 弹簧物体
     private Transform Fist;           // 拳头物体
 
-   private PhysicsSpringFist physicsSpringFist;
     [Header("缩放设置")]
     public float scaleMultiplier = 100f; // 缩放倍数
     public float minScale = 0.1f;    // 最小缩放
@@ -49,7 +48,6 @@ foreach (GameObject fistObj in allFist)
     {
         Fist = fistObj.transform;
         Debug.Log($"找到自己的拳头：{fistObj.name}");
-        physicsSpringFist=Fist.GetComponent<PhysicsSpringFist>();
         break; // ✅ 找到后立即终止循环，避免被覆盖
     }
 }
@@ -138,24 +136,12 @@ foreach (GameObject fistObj in allFist)
 {
     // 只有本地玩家驱动弹簧
     if (!photonView.IsMine) return;
-    
+
     if (SpringForward == null || Fist == null || Spring == null)
         return;
-        
-    if(physicsSpringFist._isPunching || physicsSpringFist._isExtending)
-    {
-        // 根据拳头位置计算弹簧长度
-        float distance = Mathf.Abs(Fist.localPosition.z - SpringForward.localPosition.z);
-        Vector3 currentScale = Spring.transform.localScale;
-        currentScale.y = Mathf.Max(distance * scaleMultiplier, minScale);
-        Spring.transform.localScale = currentScale;
-    }
-    else
-    {
-        ResetToInitialState();
-    }
-    
-    
+
+    // 出拳改为发射拳头子弹（ProjectileFist），手上的拳头和弹簧不再变化，始终保持初始状态
+    ResetToInitialState();
 }
 public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 {
