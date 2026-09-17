@@ -26,7 +26,8 @@ public class PlayerMana : MonoBehaviourPunCallbacks
 
     void Start()
     {
-        currentMana = 0f;
+        // 开局蓝量即为满
+        currentMana = maxMana;
         UpdateManaUI();
     }
 
@@ -56,6 +57,15 @@ public class PlayerMana : MonoBehaviourPunCallbacks
     public void ConsumeAllMana()
     {
         currentMana = 0f;
+        UpdateManaUI();
+    }
+
+    /// <summary>
+    /// 持续消耗指定蓝量（护盾存续期间逐帧调用），最低扣到 0
+    /// </summary>
+    public void ConsumeMana(float amount)
+    {
+        currentMana = Mathf.Max(0f, currentMana - amount);
         UpdateManaUI();
     }
 

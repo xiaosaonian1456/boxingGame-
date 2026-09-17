@@ -632,3 +632,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shieldPrefabName: Dun
+  manaDrainPerSecond: 20
+  shieldReleaseDelay: 0.2
+  manaRequiredToSummon: 40
+  handsTogetherDistance: 0.3
+  handsForwardMinDistance: 0.1
+  handsMinHeightOffset: -0.5
+  handsMaxHeightOffset: 0.05

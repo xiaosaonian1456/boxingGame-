@@ -149,12 +149,19 @@ public class ProjectileFist : MonoBehaviour
                 playerHitClip != null ? playerHitClip : shieldHitClip);
             Despawn();
         }
-        // 击中盾牌：不扣血，只播特效音效后消失
+        // 击中盾牌：不扣血，计入护盾受击次数，播特效音效后消失。
+        // 自己的拳头也会打到自己的盾牌并计入受击次数（子弹生成在拳头处，举盾出拳会立刻命中自己的盾）
         else if (other.CompareTag("Dun"))
         {
-            // 同样忽略发射者自己的盾牌
-            PhotonView shieldView = other.GetComponentInParent<PhotonView>();
-            if (shieldView != null && shieldView.OwnerActorNr == _shooterActorNumber) return;
+            // 双方客户端都在本地模拟子弹，只有发射者客户端登记受击，避免重复计数
+            if (_isMine)
+            {
+                PhotonView shieldView = other.GetComponentInParent<PhotonView>();
+                if (shieldView != null)
+                {
+                    shieldView.RPC(nameof(ShieldDurability.RegisterHit), RpcTarget.All);
+                }
+            }
 
             PlayHitEffectAndSound(other.ClosestPoint(transform.position), shieldHitClip);
             Despawn();
