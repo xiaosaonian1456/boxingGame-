@@ -175,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireKey: 102
   punchCooldown: 0.5
-  projectileFistPrefab: {fileID: 1564468091806366, guid: 489b3a2ec3e7cf949925d1b34247d1a9, type: 3}
+  projectileFistPrefab: {fileID: 1595252117517162, guid: e7776336bc56a9b4caa1c90ea92ff765, type: 3}
   punchVelocityThreshold: 1
   punchDirectionStrictness: 1.2
   velocitySmoothing: 10

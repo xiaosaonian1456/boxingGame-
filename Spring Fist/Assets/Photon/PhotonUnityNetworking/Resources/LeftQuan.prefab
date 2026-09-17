@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 6068722864833853745}
   - component: {fileID: 8058996604798896999}
   - component: {fileID: 6391922976555372263}
-  - component: {fileID: 1207414077171697886}
   m_Layer: 6
   m_Name: LeftQuan
   m_TagString: LeftQuan
@@ -206,36 +205,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireKey: 101
-  maxDistance: 2.5
-  retractDelay: 0.2
-  punchSpeed: 15
-  retractSpeed: 10
+  punchCooldown: 0.5
+  projectileFistPrefab: {fileID: 1564468091806366, guid: 489b3a2ec3e7cf949925d1b34247d1a9, type: 3}
   Lefthandle: {fileID: 8038865797903626417}
   Leftfist: {fileID: 8038865797903626417}
   punchVelocityThreshold: 1.5
   punchDirectionStrictness: 1.2
   velocitySmoothing: 10
   _isLeftPunching: 0
-  _isLeftExtending: 0
-  leftTanHuangModels: []
-  canDamage: 1
-  punchEffect: {fileID: 8324448097241465035}
---- !u!114 &1207414077171697886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9013214634131464804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84332e52194843b4babd8426580f5e6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 2
-  hitEffectPrefab: {fileID: 1460800425478370, guid: c2721edf07119f74ea2f68f2cad99755, type: 3}
-  playerHitClip: {fileID: 8300000, guid: 6fe9a7e7a3a61c244a05467b8f1428e7, type: 3}
-  shieldHitClip: {fileID: 8300000, guid: 85d6e57d5dc7b7149ba20a5fec789865, type: 3}
 --- !u!1001 &8162680116540384237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -323,10 +300,5 @@ PrefabInstance:
 --- !u!4 &8163167700447423037 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4168886561065424, guid: 5ae5c6fb282fd3c44bf0c2083393e142, type: 3}
-  m_PrefabInstance: {fileID: 8162680116540384237}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &8324448097241465035 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198663205248672550, guid: 5ae5c6fb282fd3c44bf0c2083393e142, type: 3}
   m_PrefabInstance: {fileID: 8162680116540384237}
   m_PrefabAsset: {fileID: 0}

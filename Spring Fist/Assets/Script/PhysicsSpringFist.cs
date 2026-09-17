@@ -99,9 +99,12 @@ public class PhysicsSpringFist : MonoBehaviourPun, IPunObservable
             Debug.LogError("[PhysicsSpringFist] fist 未赋值！请在 Inspector 中设置 fist 引用。");
             return;
         }
-        if (projectileFistPrefab == null)
+
+        // 本玩家注册时随机分配的特效下标（FistSkinManager），-1表示未配置分配器，用兜底预制体
+        int skinIndex = FistSkinManager.Instance != null ? FistSkinManager.Instance.GetLocalSkinIndex() : -1;
+        if (skinIndex < 0 && projectileFistPrefab == null)
         {
-            Debug.LogError("[PhysicsSpringFist] projectileFistPrefab 未赋值！请在 Inspector 中设置发射的拳头预制体。");
+            Debug.LogError("[PhysicsSpringFist] 未配置子弹预制体！请配置 FistSkinManager 的特效列表或本组件的 projectileFistPrefab 兜底。");
             return;
         }
 
@@ -111,19 +114,22 @@ public class PhysicsSpringFist : MonoBehaviourPun, IPunObservable
         // 手上的拳头和弹簧保持不动；只有发射者客户端的子弹做伤害判定。
         // 飞行方向以手柄的+Z（出拳检测也是按手柄本地z判定的），不能用拳头模型的rotation（它自带X=90°旋转）
         Vector3 punchDir = handle != null ? handle.forward : fist.forward;
-        photonView.RPC("RPC_FireProjectile", RpcTarget.All, fist.position, punchDir);
+        photonView.RPC("RPC_FireProjectile", RpcTarget.All, fist.position, punchDir, skinIndex);
 
         // 冷却结束后才能再次出拳
         Invoke(nameof(ResetState), punchCooldown);
     }
 
     [PunRPC]
-    void RPC_FireProjectile(Vector3 position, Vector3 direction)
+    void RPC_FireProjectile(Vector3 position, Vector3 direction, int skinIndex)
     {
         // 本RPC在每个客户端都执行在发射者的photonView上，直接取发射者的ActorNumber，
         // 让子弹在所有客户端都忽略发射者自己的身体（否则对方客户端上子弹一生成就撞到发射者替身被回收）。
         // 注意不能用ViewID判断：拳头和身体是各自PhotonNetwork.Instantiate的，ViewID不同但Owner相同
-        ProjectileFist.Spawn(projectileFistPrefab, position, direction, photonView.IsMine, photonView.OwnerActorNr);
+        GameObject prefab = FistSkinManager.Instance != null ? FistSkinManager.Instance.GetPrefab(skinIndex) : null;
+        if (prefab == null) prefab = projectileFistPrefab; // 未配置分配器时用兜底预制体
+        Debug.Log($"[PhysicsSpringFist] 生成子弹：{(prefab != null ? prefab.name : "null")}（skinIndex={skinIndex}）");
+        ProjectileFist.Spawn(prefab, position, direction, photonView.IsMine, photonView.OwnerActorNr);
     }
 
     void ResetState()

@@ -10,7 +10,6 @@ public class LeftTanHuang : MonoBehaviourPun,IPunObservable
     private Transform LeftController;
     public GameObject LeftSpring;        // 弹簧物体
     private Transform LeftFist;           // 拳头物体
-   private LeftPhysicsSpringFist leftPhysicsSpringFist;
     [Header("缩放设置")]
     public float scaleMultiplier = 100f; // 缩放倍数
     public float minScale = 0.1f;    // 最小缩放
@@ -47,7 +46,6 @@ foreach (GameObject fistObj in allFist)
     {
         LeftFist = fistObj.transform;
         Debug.Log($"找到自己的拳头：{LeftFist.name}");
-        leftPhysicsSpringFist=LeftFist.GetComponent<LeftPhysicsSpringFist>();
         break; // ✅ 找到后立即终止循环，避免被覆盖
     }
 }
@@ -135,19 +133,11 @@ foreach (GameObject fistObj in allFist)
 {
     if(!photonView.IsMine)
         return;
-    // ✅ 所有客户端都执行弹簧计算，不需要任何所有权判断
     if (LeftSpringForward == null || LeftFist == null || LeftSpring == null)
         return;
-    if(leftPhysicsSpringFist._isLeftPunching||leftPhysicsSpringFist._isLeftExtending){
-        // 所有客户端都根据自己看到的拳头位置计算弹簧长度
-    float distance = Mathf.Abs(LeftFist.localPosition.z - LeftSpringForward.localPosition.z);
-    Vector3 currentScale = LeftSpring.transform.localScale;
-    currentScale.y = Mathf.Max(distance * scaleMultiplier, minScale);
-    LeftSpring.transform.localScale = currentScale;
-    }
-    else{
-        ResetToInitialState();
-    }
+
+    // 出拳改为发射拳头子弹（ProjectileFist），手上的拳头和弹簧不再变化，始终保持初始状态
+    ResetToInitialState();
 }
 public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 {
