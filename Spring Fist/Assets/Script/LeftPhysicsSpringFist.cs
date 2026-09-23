@@ -9,6 +9,8 @@ public class LeftPhysicsSpringFist : MonoBehaviourPun, IPunObservable
     public float punchCooldown = 0.5f;   // 两次出拳的最小间隔
     [Header("发射拳头设置")]
     public GameObject projectileFistPrefab; // 发射的拳头子弹预制体（挂ProjectileFist+触发器Collider，特效作为子物体）
+    [Tooltip("子弹飞行距离倍率（相对ProjectileFist.maxDistance），左手为3倍")]
+    public float projectileDistanceMultiplier = 3f;
 
     [Header("手柄设置")]
     private Transform LeftController;
@@ -48,6 +50,11 @@ public class LeftPhysicsSpringFist : MonoBehaviourPun, IPunObservable
         if(!photonView.IsMine){
             return;
         }
+        // 四人模式复活倒计时期间无法攻击
+        if (IsLocalRespawning())
+        {
+            return;
+        }
         // 检测VR左手柄的出拳挥动动作（替代扳机键触发）
         DetectPunchMotion();
         if(Input.GetKeyDown(fireKey)&& !_isLeftPunching)
@@ -55,6 +62,28 @@ public class LeftPhysicsSpringFist : MonoBehaviourPun, IPunObservable
             FirePunch();
             Debug.Log("出拳");
         }
+    }
+
+    private HealthBar _localHealthBar;
+
+    /// <summary>
+    /// 本地玩家是否处于四人模式复活倒计时中（双人模式永远为false）
+    /// </summary>
+    private bool IsLocalRespawning()
+    {
+        if (_localHealthBar == null)
+        {
+            foreach (HealthBar hb in FindObjectsOfType<HealthBar>())
+            {
+                PhotonView pv = hb.GetComponent<PhotonView>();
+                if (pv != null && pv.IsMine)
+                {
+                    _localHealthBar = hb;
+                    break;
+                }
+            }
+        }
+        return _localHealthBar != null && _localHealthBar.IsRespawning;
     }
 
     /// <summary>
@@ -129,7 +158,7 @@ public class LeftPhysicsSpringFist : MonoBehaviourPun, IPunObservable
         GameObject prefab = FistSkinManager.Instance != null ? FistSkinManager.Instance.GetPrefab(skinIndex) : null;
         if (prefab == null) prefab = projectileFistPrefab; // 未配置分配器时用兜底预制体
         Debug.Log($"[LeftPhysicsSpringFist] 生成子弹：{(prefab != null ? prefab.name : "null")}（skinIndex={skinIndex}）");
-        ProjectileFist.Spawn(prefab, position, direction, photonView.IsMine, photonView.OwnerActorNr);
+        ProjectileFist.Spawn(prefab, position, direction, photonView.IsMine, photonView.OwnerActorNr, projectileDistanceMultiplier);
     }
 
     void ResetState()

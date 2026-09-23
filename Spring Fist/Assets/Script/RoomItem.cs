@@ -13,15 +13,15 @@ public class RoomItem : MonoBehaviour
     private Action<string> onJoinClick;
 
     /// <summary>
-    /// 初始化固定房间条目（只设置房间名和点击回调）
+    /// 初始化固定房间条目（设置房间名、人数上限和点击回调）
     /// </summary>
-    public void Init(string roomName, Action<string> joinCallback)
+    public void Init(string roomName, int maxPlayers, Action<string> joinCallback)
     {
         currentRoomName = roomName;
         onJoinClick = joinCallback;
         roomNameText.text = roomName;
         // 默认状态：0人，可加入
-        SetStatus(0, 2, false);
+        SetStatus(0, maxPlayers, false);
     }
 
     /// <summary>

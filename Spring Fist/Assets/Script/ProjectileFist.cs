@@ -29,6 +29,7 @@ public class ProjectileFist : MonoBehaviour
     private int _shooterActorNumber; // 发射者的ActorNumber，所有客户端都忽略属于发射者的碰撞体
     private bool _flying;
     private GameObject _prefab; // 记录来源预制体，回收时用
+    private float _distanceMultiplier = 1f; // 飞行距离倍率（如左手发射3倍距离），每次发射时重置
 
     // 每个预制体对应一个空闲实例池，避免反复Instantiate/Destroy
     private static readonly Dictionary<GameObject, Stack<ProjectileFist>> _freePools = new Dictionary<GameObject, Stack<ProjectileFist>>();
@@ -37,7 +38,7 @@ public class ProjectileFist : MonoBehaviour
     /// <summary>
     /// 从对象池取一个拳头子弹并发射（没有空闲实例才Instantiate）
     /// </summary>
-    public static ProjectileFist Spawn(GameObject prefab, Vector3 position, Vector3 direction, bool isMine, int shooterActorNumber)
+    public static ProjectileFist Spawn(GameObject prefab, Vector3 position, Vector3 direction, bool isMine, int shooterActorNumber, float distanceMultiplier = 1f)
     {
         if (prefab == null) return null;
 
@@ -74,7 +75,7 @@ public class ProjectileFist : MonoBehaviour
             }
         }
 
-        fist.Launch(position, direction, isMine, shooterActorNumber);
+        fist.Launch(position, direction, isMine, shooterActorNumber, distanceMultiplier);
         return fist;
     }
 
@@ -87,12 +88,13 @@ public class ProjectileFist : MonoBehaviour
         return _poolRoot;
     }
 
-    private void Launch(Vector3 position, Vector3 direction, bool isMine, int shooterActorNumber)
+    private void Launch(Vector3 position, Vector3 direction, bool isMine, int shooterActorNumber, float distanceMultiplier)
     {
         _flyDirection = direction.normalized;
         _startPos = position;
         _isMine = isMine;
         _shooterActorNumber = shooterActorNumber;
+        _distanceMultiplier = distanceMultiplier;
         _flying = true;
 
         transform.position = position;
@@ -116,7 +118,7 @@ public class ProjectileFist : MonoBehaviour
         transform.position += _flyDirection * speed * Time.deltaTime;
 
         // 到达最大距离仍未命中，回收
-        if (Vector3.Distance(_startPos, transform.position) >= maxDistance)
+        if (Vector3.Distance(_startPos, transform.position) >= maxDistance * _distanceMultiplier)
         {
             Despawn();
         }
@@ -139,9 +141,42 @@ public class ProjectileFist : MonoBehaviour
 
             if (_isMine)
             {
+                // 四人模式：复活倒计时中的敌人无法受伤、击中也不加分
+                HealthBar targetHealth = targetView.GetComponent<HealthBar>();
+                if (targetHealth != null && targetHealth.IsRespawning)
+                {
+                    PlayHitEffectAndSound(other.ClosestPoint(transform.position),
+                        playerHitClip != null ? playerHitClip : shieldHitClip);
+                    Despawn();
+                    return;
+                }
+
+                // 四人计分模式（Game4场景）：同队误伤不掉血也不加分
+                GameTimeText4P scoreTimer = FindObjectOfType<GameTimeText4P>();
+                string myTeam = null;
+                string targetTeam = null;
+                if (scoreTimer != null)
+                {
+                    myTeam = GetTeam(PhotonNetwork.LocalPlayer);
+                    targetTeam = GetTeam(targetView.Owner);
+                    if (myTeam != null && targetTeam != null && myTeam == targetTeam)
+                    {
+                        PlayHitEffectAndSound(other.ClosestPoint(transform.position),
+                            playerHitClip != null ? playerHitClip : shieldHitClip);
+                        Despawn();
+                        return;
+                    }
+                }
+
                 // 只有发射者判定伤害，由目标客户端自己扣血（与FistCollision同一套RPC）
                 targetView.RPC(nameof(HealthBar.TakeDamage), RpcTarget.All, damage);
                 Debug.Log($"拳头子弹击中玩家：{targetView.Owner.NickName}，造成{damage}点伤害");
+
+                // 四人计分模式（Game4场景）：命中对方队伍角色给本队+1分；同队误伤不加分
+                if (scoreTimer != null && myTeam != null && targetTeam != null && myTeam != targetTeam)
+                {
+                    scoreTimer.photonView.RPC(nameof(GameTimeText4P.RPC_AddHit), RpcTarget.All, myTeam);
+                }
             }
 
             // 各客户端本地播放击中特效和音效（双方子弹都在本地模拟，位置近似即可，省去额外RPC）
@@ -180,6 +215,18 @@ public class ProjectileFist : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(clip, position);
         }
+    }
+
+    /// <summary>
+    /// 读取玩家的队伍自定义属性（四人模式 TeamSelectUI 选座时写入，双人模式为空）
+    /// </summary>
+    private static string GetTeam(Photon.Realtime.Player player)
+    {
+        if (player != null && player.CustomProperties.TryGetValue("Team", out object team))
+        {
+            return team as string;
+        }
+        return null;
     }
 
     /// <summary>

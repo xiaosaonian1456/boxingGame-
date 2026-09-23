@@ -42,12 +42,15 @@ public class PlayerDefence : MonoBehaviourPunCallbacks
 
     private GameObject currentShield; // 当前自己生成的护盾
     private bool wasInputPressedLastFrame = false;
+    private bool pcShieldToggleOn = false; // 电脑端点按D切换的护盾开关状态
     private Coroutine shieldReleaseCoroutine; // 解除姿态后的延迟销毁协程
     private PlayerMana playerMana; // 蓝量管理
+    private HealthBar myHealthBar; // 同物体上的血条（复活状态判断）
 
     // Start is called before the first frame update
     void Awake()
     {
+        myHealthBar = GetComponent<HealthBar>();
         // 找到所有弹簧
         xrOrigin = FindObjectOfType<XROrigin>();
         mainCamera = Camera.main.transform;
@@ -126,7 +129,10 @@ public class PlayerDefence : MonoBehaviourPunCallbacks
     {
         if (!photonView.IsMine) return;
 
-        // 是否正保持防御姿态（抱拳，或编辑器下按住D调试）
+        // 四人模式复活倒计时期间无法防御
+        if (myHealthBar != null && myHealthBar.IsRespawning) return;
+
+        // 是否正保持防御姿态（PICO端抱拳，电脑端为D键开关处于打开状态）
         bool defencePosing = IsDefenceInputActive();
 
         // 护盾存续期间的状态维护（放在出拳检测之前，出拳期间也照常执行；
@@ -145,6 +151,7 @@ public class PlayerDefence : MonoBehaviourPunCallbacks
                         Debug.Log("蓝量耗尽，护盾消失");
                         PhotonNetwork.Destroy(currentShield);
                         currentShield = null;
+                        pcShieldToggleOn = false; // 重置D键开关，回蓝后需重新点按D召唤
                     }
                 }
             }
@@ -161,6 +168,14 @@ public class PlayerDefence : MonoBehaviourPunCallbacks
         {
             wasInputPressedLastFrame = defencePosing;
             return;
+        }
+
+        // 电脑端（编辑器/PC包）：点按D切换护盾释放/取消；PICO端走抱拳姿态判定，不受影响。
+        // 放在出拳检测之后：出拳期间按D不生效，避免开关状态被吞掉导致下次点按变成反向操作
+        if (Application.platform != RuntimePlatform.Android && Input.GetKeyDown(KeyCode.D))
+        {
+            pcShieldToggleOn = !pcShieldToggleOn;
+            defencePosing = IsDefenceInputActive();
         }
 
         // 边缘检测：只有进入姿态的那一帧才触发，保持抱拳不会连续召唤护盾
@@ -181,11 +196,15 @@ public class PlayerDefence : MonoBehaviourPunCallbacks
     }
 
     /// <summary>
-    /// 是否正保持防御输入：双手交叉抱拳的防御姿态，或编辑器下按住D键调试
+    /// 是否正保持防御输入：PICO端为双手交叉抱拳姿态；电脑端为D键开关状态
     /// </summary>
     private bool IsDefenceInputActive()
     {
-        return IsCrossedGuardPose() || Input.GetKey(KeyCode.D);
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            return IsCrossedGuardPose();
+        }
+        return pcShieldToggleOn;
     }
 
     /// <summary>
@@ -244,6 +263,20 @@ public class PlayerDefence : MonoBehaviourPunCallbacks
         bool inFront = handLocalPos.z > handsForwardMinDistance;
         bool inHeight = handLocalPos.y > handsMinHeightOffset && handLocalPos.y < handsMaxHeightOffset;
         return inFront && inHeight;
+    }
+
+    /// <summary>
+    /// 立即收回当前护盾（四人模式死亡进入复活倒计时时由HealthBar调用）
+    /// </summary>
+    public void ForceReleaseShield()
+    {
+        CancelShieldRelease();
+        pcShieldToggleOn = false; // 重置D键开关，复活后需重新点按D召唤
+        if (currentShield != null)
+        {
+            PhotonNetwork.Destroy(currentShield);
+            currentShield = null;
+        }
     }
 
     public void defenceway()

@@ -10,13 +10,19 @@ public class ConnectUI : MonoBehaviour
     private Image[] lights;
     private int currentLightIndex = 1;
 
-    void Start()
+    void OnEnable()
     {
-        lights = new Image[3];
-        lights[0] = transform.Find("1").GetComponent<Image>();
-        lights[1] = transform.Find("2").GetComponent<Image>();
-        lights[2] = transform.Find("3").GetComponent<Image>();
+        // 惰性初始化，避免重复Find
+        if (lights == null)
+        {
+            lights = new Image[3];
+            lights[0] = transform.Find("1").GetComponent<Image>();
+            lights[1] = transform.Find("2").GetComponent<Image>();
+            lights[2] = transform.Find("3").GetComponent<Image>();
+        }
 
+        // 每次激活时重置灯的状态并重启协程（GameObject失活时协程会被自动停止）
+        currentLightIndex = 1;
         lights[0].sprite = lightOnSprite;
         lights[1].sprite = lightOffSprite;
         lights[2].sprite = lightOffSprite;

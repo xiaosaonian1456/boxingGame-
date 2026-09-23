@@ -605,6 +605,8 @@ MonoBehaviour:
   loadOver: 0
   isLoad: 0
   _currentHealth: 100
+  respawnDelay: 5
+  fourPlayerMaxHealth: 100
 --- !u!114 &3605501224206653111
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -58,6 +58,9 @@ MonoBehaviour:
   - RPC_FireProjectile
   - RPC_FireLeftProjectile
   - RegisterHit
+  - RPC_AddHit
+  - RPC_SetRespawning
+  - RPC_HideShieldVisual
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

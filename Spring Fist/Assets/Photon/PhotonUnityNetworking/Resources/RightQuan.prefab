@@ -176,8 +176,9 @@ MonoBehaviour:
   fireKey: 102
   punchCooldown: 0.5
   projectileFistPrefab: {fileID: 1595252117517162, guid: e7776336bc56a9b4caa1c90ea92ff765, type: 3}
-  punchVelocityThreshold: 1
-  punchDirectionStrictness: 1.2
+  projectileDistanceMultiplier: 3
+  punchVelocityThreshold: 0.8
+  punchDirectionStrictness: 0.8
   velocitySmoothing: 10
   fist: {fileID: 8038865797903626417}
   _isPunching: 0
