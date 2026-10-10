@@ -25,7 +25,9 @@ public class ReturnButton : MonoBehaviourPunCallbacks
     }
     public void Return()
     {
-        
+        // 恢复时间流速：单机倒计时结束会冻结游戏（timeScale=0），不恢复的话下个场景也是冻结的
+        Time.timeScale = 1f;
+
         // 只有确实处于房间内，才执行离开操作
         if (PhotonNetwork.InRoom)
         {

@@ -39,7 +39,7 @@ public class DemoShooting : MonoBehaviour
     void Update()
     {
         //Single shoot
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetButtonDown("Fire1"))
         {
             camAnim.Play(camAnim.clip.name);
             Instantiate(Prefabs[Prefab], FirePoint.transform.position, FirePoint.transform.rotation);

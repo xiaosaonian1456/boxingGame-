@@ -14814,9 +14814,10 @@ MonoBehaviour:
   speed: 15
   maxDistance: 5
   damage: 2
-  hitEffectPrefab: {fileID: 1460800425478370, guid: c2721edf07119f74ea2f68f2cad99755, type: 3}
+  hitEffectPrefab: {fileID: 1636871764186634, guid: 9a7c6bfff5ad87d409e200fe3a0d5036, type: 3}
   playerHitClip: {fileID: 8300000, guid: 6fe9a7e7a3a61c244a05467b8f1428e7, type: 3}
   shieldHitClip: {fileID: 8300000, guid: 85d6e57d5dc7b7149ba20a5fec789865, type: 3}
+  hitSoundMinDistance: 15
 --- !u!82 &-696868986473275108
 AudioSource:
   m_ObjectHideFlags: 0

@@ -1,0 +1,2447 @@
+fileFormatVersion: 2
+guid: 159c4ecee7d28d148b4ce36d24684277
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual002_accessory001
+    second: {fileID: 2100000, guid: f182fc720e339604996e2d75edb00efd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual002_accessory002
+    second: {fileID: 2100000, guid: b42de1db80c5f23448f711a046480da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual002_accessory003
+    second: {fileID: 2100000, guid: dac624b2b85ee1f4481a4f975afee719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual003_accessory001
+    second: {fileID: 2100000, guid: e22c89b057e240342a402fed69580987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual005_accessory001
+    second: {fileID: 2100000, guid: 41f3a1b8c2e731c47beba7197ee61cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual005_accessory002
+    second: {fileID: 2100000, guid: d68a37da75dadcd4a815caccc907ff99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual005_accessory003
+    second: {fileID: 2100000, guid: d55309ffdfb835d4ca913f18b8ab5f8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual006_accessory001
+    second: {fileID: 2100000, guid: 3c705c08e0235c64ca067cf7bdec27fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual006_accessory002
+    second: {fileID: 2100000, guid: 11c2792b7da3abd49acf2ec6becac81f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Casual007_accessory001
+    second: {fileID: 2100000, guid: fecb2c43e7109de4b973dae9fa9c7e29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Chef_accessory001
+    second: {fileID: 2100000, guid: b296062f35a06be4bbfdd75619c5dc08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Chef_accessory002
+    second: {fileID: 2100000, guid: 9955d447dfb91db48bb5b5f7c78b919d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Chef_accessory003
+    second: {fileID: 2100000, guid: 9c3b99a72858f874bb17eda5ef30995d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Chef_accessory004
+    second: {fileID: 2100000, guid: e9d3db7615db44d4db487d67e531c15f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Chef_accessory005
+    second: {fileID: 2100000, guid: 14149dd8b9d903345baf820828ae1d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Chef_accessory006
+    second: {fileID: 2100000, guid: 7de820c4cd3139548b63e5e63d78f730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Chef_cloth001
+    second: {fileID: 2100000, guid: ea3644e5271818c43bd657f6f6a37ef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Chef_cloth002
+    second: {fileID: 2100000, guid: 2546a1c42489d0147b7dbec8e4f83c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Doctor_accessory001
+    second: {fileID: 2100000, guid: f808e9def7a17614090f50131191a27b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Doctor_accessory002
+    second: {fileID: 2100000, guid: 1fa62d0a614784047a40527d91cdfc10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Doctor_cloth001
+    second: {fileID: 2100000, guid: feb64e19afedaa341b57be75cbff98ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Doctor_cloth002
+    second: {fileID: 2100000, guid: c5ab18e625b936b4e97563c131952efb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Doctor_cloth003
+    second: {fileID: 2100000, guid: 4de509b8723156b44a96f2e87e07db6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_accessory001
+    second: {fileID: 2100000, guid: 09b5b4a2b1d2cc54b91edd411d22bbca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_accessory002
+    second: {fileID: 2100000, guid: 08d8b9cbe0f8795478d9abfde5ae1f23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_accessory003
+    second: {fileID: 2100000, guid: dff12d9453ad6bd4eb685289794924ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_accessory007
+    second: {fileID: 2100000, guid: fbbd29cffe71ff74292b5104f08a90e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_cloth001
+    second: {fileID: 2100000, guid: 98b9279c17a66d449857f1cef2168c23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_cloth002
+    second: {fileID: 2100000, guid: c8d5d8ed3bf03f54aa3af1ee584bd277, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_cloth003
+    second: {fileID: 2100000, guid: f0d51ddb04c5d1e48ad7728a5347defa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_cloth004
+    second: {fileID: 2100000, guid: ecedc1660c68d8b49abfd04941936e34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_cloth005
+    second: {fileID: 2100000, guid: 02fc9061a1b3fd145aa832783a29fe84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_cloth006
+    second: {fileID: 2100000, guid: 523264c8faa86784e8b5e3ac978ac853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_cloth007
+    second: {fileID: 2100000, guid: 41b5a04d5632db5409c83e736802ecdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Firefighter_cloth008
+    second: {fileID: 2100000, guid: 7b0b26dfeb661034393ac5904d8d73fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_accessory001
+    second: {fileID: 2100000, guid: 22cb3b64d2624c141bab7ccab4c19f9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_accessory002
+    second: {fileID: 2100000, guid: 49c9fcd682333164384aacff38c1e4fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth001
+    second: {fileID: 2100000, guid: 279ef3f965ec3734d81e9089af652dc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth002
+    second: {fileID: 2100000, guid: 38b8e7e831dd3374ba07c25169b0aaae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth003
+    second: {fileID: 2100000, guid: 11541335569fa704c99a81b7602e062c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth004
+    second: {fileID: 2100000, guid: 39a3595080243a44ba08f12b9577c677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth005
+    second: {fileID: 2100000, guid: 2603ff93ac66d9b44a2333c966709990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth006
+    second: {fileID: 2100000, guid: 84459d5acc931dd47949d7ee00eee857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth007
+    second: {fileID: 2100000, guid: fa8472f0ae3471c46bcb591306a99ced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth008
+    second: {fileID: 2100000, guid: bf1ca5e1f5d80644eb8b274d81d1591b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth009
+    second: {fileID: 2100000, guid: 00c08635c773f634d8ff70203853a7da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mailman_cloth010
+    second: {fileID: 2100000, guid: ced1a534dbf1976438e510d996c5924f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mascot_cloth001
+    second: {fileID: 2100000, guid: c37e07732f1c19a4e98b2667f3d47b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mascot_cloth002
+    second: {fileID: 2100000, guid: d004b929941e56f4f83d29a6ed811e97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Mascot_cloth003
+    second: {fileID: 2100000, guid: a782697ed7e8f2946af9f2951df1f0ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Nurse_accessory001
+    second: {fileID: 2100000, guid: 79caa7a5abe1d4e4eb8f6fbdaa642885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Nurse_accessory002
+    second: {fileID: 2100000, guid: 77475e2eb0a121a498e8ee087f50221a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Nurse_cloth001
+    second: {fileID: 2100000, guid: 79e58196725347c44906280f55b8c568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Nurse_cloth002
+    second: {fileID: 2100000, guid: 7b42d69a9feca2a45b28bc8f1e93f502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Patient_accessory001
+    second: {fileID: 2100000, guid: 3c978e7ed742fc2429faf79e524f1097, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Patient_cloth001
+    second: {fileID: 2100000, guid: e80c4910c7dba3545ad4e705cedcb703, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Patient_cloth003
+    second: {fileID: 2100000, guid: b82653bcfde9592429fabe9380c0dd35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Patient_cloth004
+    second: {fileID: 2100000, guid: 226e00579941d0447926b018b0150265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Patient_cloth005
+    second: {fileID: 2100000, guid: 840aa19caef9a594e92a9b1eb00f52cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Police_accessory001
+    second: {fileID: 2100000, guid: 2f1f7843198954e4b916423468c99cc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Police_accessory002
+    second: {fileID: 2100000, guid: 192f885e008d2344cac187eb21b0d540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Police_accessory003
+    second: {fileID: 2100000, guid: ce87f92709c316043a55aec8b8eec723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Police_accessory004
+    second: {fileID: 2100000, guid: ac0774481c96f4748b6fa67e48295e3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Police_accessory005
+    second: {fileID: 2100000, guid: 1b60ee928b924584eabb921f3fd76383, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Police_cloth001
+    second: {fileID: 2100000, guid: 7c2bfbc3d536cec4f913c58ea27f2c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Police_cloth002
+    second: {fileID: 2100000, guid: 3fb666df3ee3fcd46bfb1823c4446128, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Police_cloth003
+    second: {fileID: 2100000, guid: 63e3aa2fb7390964b87e0eaea3804e87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Police_cloth004
+    second: {fileID: 2100000, guid: cb425c3e7e202224fbd9b455d41e616e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Prisoner_accessory001
+    second: {fileID: 2100000, guid: d50209c33878f1c418dcfbce510696b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Prisoner_cloth001
+    second: {fileID: 2100000, guid: 360082bbfe26e4343aaaca892f97eb29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Prisoner_cloth002
+    second: {fileID: 2100000, guid: f996dfac4043b4a4aad3e814332aa8eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Prisoner_cloth003
+    second: {fileID: 2100000, guid: 3c90b080da72912478251932f4adadb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Prisoner_cloth004
+    second: {fileID: 2100000, guid: 58a333b9181e62542a719dc13c103b12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Protective_accessory001
+    second: {fileID: 2100000, guid: 0e8cc4f766f9d7e4897212a61880963e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Protective_accessory002
+    second: {fileID: 2100000, guid: e6a171d4a5b16b2468af56977198146f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Protective_accessory003
+    second: {fileID: 2100000, guid: 51989eeff3d18244989534190b22d70d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Protective_accessory004
+    second: {fileID: 2100000, guid: ecc9d0605f6da034f9ad46005d127776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Protective_accessory005
+    second: {fileID: 2100000, guid: f003ba33ff73c37479c5034ee9a2a816, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Protective_accessory006
+    second: {fileID: 2100000, guid: 8b7a665d114a85846be6591c1c4b8720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Protective_cloth001
+    second: {fileID: 2100000, guid: 4560cea72fd715f4a8bea44f5db5adb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Protective_cloth002
+    second: {fileID: 2100000, guid: 04f6b8ed95d34ca4691980d30e02c478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Soldier_accessory001
+    second: {fileID: 2100000, guid: 5d6d4762f94759946a09c71dc485f9bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Soldier_cloth001
+    second: {fileID: 2100000, guid: 1437887981c0a324cb0fa2d2e5b56c9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Soldier_cloth002
+    second: {fileID: 2100000, guid: fa603dfc1ec5d454eaeabe0a40cbf0bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Soldier_cloth003
+    second: {fileID: 2100000, guid: c6b7ae149b68d3a4ab38e82b6f29e508, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_accessory001
+    second: {fileID: 2100000, guid: d9d98d597e90c8c4e9e455581395e534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_accessory002
+    second: {fileID: 2100000, guid: ac2f714d45fc4414580d29bd157d92f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_accessory003
+    second: {fileID: 2100000, guid: 803e4182a1607f44ca012fddc9e01e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_accessory004
+    second: {fileID: 2100000, guid: e01eeae4516b6264cb352bcf245c3d55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_accessory005
+    second: {fileID: 2100000, guid: 59f35ccc5bb13944fb0da069bfb75698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_cloth001
+    second: {fileID: 2100000, guid: 7be9537685ae28046b63b174c56e58fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_cloth002
+    second: {fileID: 2100000, guid: 43596f3bc65b7d94f8bde59bd1485486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_cloth003
+    second: {fileID: 2100000, guid: 5115727fa41781d42b06b68e0cb69bed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_cloth004
+    second: {fileID: 2100000, guid: 249a1b3bed1a0d14db3aa1d973172230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Student_cloth005
+    second: {fileID: 2100000, guid: 88a741fc7642953429c12ccee4d2185e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_accessory001
+    second: {fileID: 2100000, guid: 97d669ccdafd4674e85046ff6d89e527, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_accessory002
+    second: {fileID: 2100000, guid: 5d05a5cc7c9f63e47bf03f13d4698275, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_accessory003
+    second: {fileID: 2100000, guid: 94954c239550cd94185d6b078e226879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_accessory004
+    second: {fileID: 2100000, guid: ed6785f798ecaa944a982d22a9d4b02e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth001
+    second: {fileID: 2100000, guid: fbb8c53cd8ce2334eb7c6421b82e93ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth002
+    second: {fileID: 2100000, guid: bf0ff457a1b85ab4dbfa36a949bb5e0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth004
+    second: {fileID: 2100000, guid: 9251a91f1c7e9fb4a9be0f575e8d06f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth005
+    second: {fileID: 2100000, guid: e8de82bf585528a4995789c4fdb0e5cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth006
+    second: {fileID: 2100000, guid: 5da78dc4b1ac9e44db0ec8ca1fc74664, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth007
+    second: {fileID: 2100000, guid: 6b264befc11ec7d4ea04702f6880213b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth008
+    second: {fileID: 2100000, guid: 1b2d63080262bb54c8f79233919d2da8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth009
+    second: {fileID: 2100000, guid: 0c15d8a7a520b604ca5bc483f4af00ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth010
+    second: {fileID: 2100000, guid: 40e0ac42b15a4c546b185c89f9d66840, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth011
+    second: {fileID: 2100000, guid: f7caf9bf63a24a844bc98af24bf9f4d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth012
+    second: {fileID: 2100000, guid: 90d0dde48255b5e41a94e11de34e2637, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_Worker_cloth013
+    second: {fileID: 2100000, guid: a107f9c00529a8d4ab497de63aee8a3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_cloth001
+    second: {fileID: 2100000, guid: 6b5a72aae9ae29e4a957eebc6c414a30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_cloth002
+    second: {fileID: 2100000, guid: 5bf0c729fb86cd846b4372d75d03b755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_cloth003
+    second: {fileID: 2100000, guid: 2e9f421a9557e384a8b663e54dba7be8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_cloth004
+    second: {fileID: 2100000, guid: 5c15ba666074c324c8aebd14540693f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_cloth005
+    second: {fileID: 2100000, guid: ba8e3f1d9c4fb7548899b5340b265eb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_cloth006
+    second: {fileID: 2100000, guid: 988010f3c3920524a8618c793cf7324e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_cloth007
+    second: {fileID: 2100000, guid: 3f4d283be720645439e0f7ca033f6dbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_color_glass
+    second: {fileID: 2100000, guid: b082d1990a0c4a34ab4446c85aee8fd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_eyeline001
+    second: {fileID: 2100000, guid: d0dfda4db37dc1e4e8a4e0f64da55b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_eyepupil001
+    second: {fileID: 2100000, guid: 76fe84ac924c8224aa2d872e66d39ca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_eyepupil002
+    second: {fileID: 2100000, guid: b0c845f521c18dc4aab481926cee30d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_eyepupil003
+    second: {fileID: 2100000, guid: 97ca7af7781204c458e6b0a9fedbfe17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_eyewhite001
+    second: {fileID: 2100000, guid: 0290af278c005df469eda76d68fa2256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_eyewhite002
+    second: {fileID: 2100000, guid: bab662bba0d02e845bad669f4268cd6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_eyewhite003
+    second: {fileID: 2100000, guid: 041312d5a66e2194093ec6cbddbd3301, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_mouth001
+    second: {fileID: 2100000, guid: d051d06ac1ab6c04093d94318a428f02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_mouth002
+    second: {fileID: 2100000, guid: c228e4a1d9fb3fa4894bae49d40e95ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_mouth003
+    second: {fileID: 2100000, guid: ccafdd52bdb148143b04112fc6294843, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_mouth004
+    second: {fileID: 2100000, guid: 5609efefc52cf7543a0f843232a9aa5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_skin001
+    second: {fileID: 2100000, guid: 10797fcfab7226a4d824629ec7e22f25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_skin002
+    second: {fileID: 2100000, guid: 67715c6ffa1babb4ba53d66ae394a84a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Z_skin003
+    second: {fileID: 2100000, guid: 2147c416a95f58143b814e4583e1f134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloth001
+    second: {fileID: 2100000, guid: 13f46cfa2ddd4ac4abd7c3ebd4146eaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloth002
+    second: {fileID: 2100000, guid: 14b5a485b0645ce4d9ee90e09b35c506, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloth003
+    second: {fileID: 2100000, guid: 5059d9e5ed0419d4293043368be6dac0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hole
+    second: {fileID: 2100000, guid: 103f3f2a07abe404eb770397af7b26ef, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - e98d7424ca383eb468b4145cb2200d35
+  - 7c60cb23f72a6b34da7e0f0814b1e62f
+  - d3cc54a3dbcf7e4448d86aff45ed67cb
+  - 526b6f0fca691b547b6d65ab54f5f612
+  - 0d4fd1c011fd18142ae557d99b1ca8d7
+  - 53a2f7fd72022324ca65028177814690
+  - 3417f9e31879978489deb9de46d07ca5
+  - beff867a2e918564d983c21ae9a04e4c
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Bip001 Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Finger41
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Finger41
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Avatar_Zombie(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00000051328516, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.0000000025330356, y: 0.6600885, z: -0.05522038}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bip001 Pelvis
+      parentName: Bip001
+      position: {x: 5.823352e-22, y: 0, z: 0.025163174}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 Spine
+      parentName: Bip001 Pelvis
+      position: {x: -0.11166534, y: -0.000110840796, z: 0.00000015501115}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 Spine1
+      parentName: Bip001 Spine
+      position: {x: -0.13924056, y: -0.000204854, z: -5.681795e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 Neck
+      parentName: Bip001 Spine1
+      position: {x: -0.2572786, y: -0.0190901, z: -1.5505065e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 Head
+      parentName: Bip001 Neck
+      position: {x: -0.056213684, y: 0.006880493, z: 0.0000000097211155}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_head
+      parentName: Bip001 Head
+      position: {x: 0.000000030800383, y: 0.000000014305114, z: 0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000077, y: 1.0000113, z: 1.0000105}
+    - name: Z_Casual001_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562947, z: 0.0000002433868}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual007_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562943, z: 0.00000024100365}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual002_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562943, z: 0.00000024338684}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual005_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562943, z: 0.00000024338684}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual004_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562943, z: 0.00000024338684}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_eyeR
+      parentName: Bone_head
+      position: {x: -0.16608214, y: -0.16126935, z: 0.064575344}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bone_eyeL
+      parentName: Bone_head
+      position: {x: -0.166082, y: -0.16126934, z: -0.064574584}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bone_leap
+      parentName: Bone_head
+      position: {x: -0.044805985, y: -0.18131702, z: 0.00000022888187}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bone_eyebrowR
+      parentName: Bone_head
+      position: {x: -0.22204407, y: -0.18107624, z: 0.06843338}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bone_eyebrowL
+      parentName: Bone_head
+      position: {x: -0.22204407, y: -0.18107624, z: -0.068429716}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Z_Casual005_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556352, z: 0.00000023014044}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Z_Casual002_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217287, y: -0.05556381, z: 0.00000024198735}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Z_Casual003_hat
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556352, z: 0.00000023746344}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Z_Casual006_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556352, z: 0.00000023014044}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Z_Chef_helmet
+      parentName: Bone_head
+      position: {x: -0.2023526, y: -0.024109056, z: 0.00000031484072}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Doctor_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562947, z: 0.00000023713415}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Firefighter_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562947, z: 0.0000002433868}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mascot_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562947, z: 0.0000002433868}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Patient_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562943, z: 0.0000002437753}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Police_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562943, z: 0.00000023713417}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Police_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562943, z: 0.00000024537914}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Protective_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562925, z: 0.0000002433868}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Z_Soldier_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562943, z: 0.00000024338684}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Soldier_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562943, z: 0.00000024338684}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Worker_helmet
+      parentName: Bone_head
+      position: {x: -0.23604369, y: -0.0285224, z: 0.00000030517577}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mailman_helmet
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562947, z: 0.0000002433868}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Prisoner_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562932, z: 0.00000023014043}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Z_Casual001_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556293, z: 0.00000023014043}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Z_Casual003_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562932, z: 0.00000023014043}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Z_Casual004_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562932, z: 0.00000023014043}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Z_Casual007_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556352, z: 0.00000023014044}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Z_Firefighter_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556352, z: 0.00000023014044}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Z_Patient_accessory01
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.055562932, z: 0.00000023014043}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Z_mouth002
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556294, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_mouth003
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556294, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_mouth004
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556294, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_mouth005
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556294, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_mouth006
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556294, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_mouth007
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556294, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_mouth008
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556294, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_mouth001
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556294, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_eye008
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556291, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Z_eye007
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556294, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Z_eye006
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556291, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Z_eye003
+      parentName: Bone_head
+      position: {x: 1.2217283, y: -0.05556291, z: 0.00000030643437}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Z_eye005
+      parentName: Bone_head
+      position: {x: 1.2217283, y: -0.05556291, z: 0.00000030643437}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Z_eye002
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556291, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Z_eye004
+      parentName: Bone_head
+      position: {x: 1.2217283, y: -0.055563062, z: 0.00000030643437}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Z_eye001
+      parentName: Bone_head
+      position: {x: 1.2217284, y: -0.05556291, z: 0.00000030643443}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Bone_nose
+      parentName: Bone_head
+      position: {x: -0.10603756, y: -0.18696377, z: 0.0000009155273}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000019, y: 1, z: 1.0000008}
+    - name: Bone_neck
+      parentName: Bip001 Neck
+      position: {x: 0.00000022888183, y: 0.000000019073486, z: -0.000000085830685}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000234, y: 1.0000191, z: 1.0000254}
+    - name: Bip001 L Clavicle
+      parentName: Bip001 Spine1
+      position: {x: -0.23311165, y: -0.027192712, z: 0.029754173}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L UpperArm
+      parentName: Bip001 L Clavicle
+      position: {x: -0.080235995, y: -0.000000009536743, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bip001 L Forearm
+      parentName: Bip001 L UpperArm
+      position: {x: -0.266902, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Bip001 L Hand
+      parentName: Bip001 L Forearm
+      position: {x: -0.17455806, y: -0.000000009536743, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 L Finger0
+      parentName: Bip001 L Hand
+      position: {x: -0.048682097, y: 0.01891014, z: -0.067643784}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Finger01
+      parentName: Bip001 L Finger0
+      position: {x: -0.06229473, y: -0.000000038146972, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_L Finger1_2
+      parentName: Bip001 L Finger01
+      position: {x: 0.0000019836425, y: -0.000002555847, z: -0.000003890991}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.000013, z: 1.0000126}
+    - name: Bone_L Finger1_1
+      parentName: Bip001 L Finger0
+      position: {x: 0.0000009918213, y: -0.0000030517576, z: -0.0000037956238}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000019, z: 1.0000001}
+    - name: Bip001 L Finger1
+      parentName: Bip001 L Hand
+      position: {x: -0.1164294, y: -0.0070446776, z: -0.046522077}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Finger11
+      parentName: Bip001 L Finger1
+      position: {x: -0.054800034, y: 0, z: 0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bone_L Finger2_2
+      parentName: Bip001 L Finger11
+      position: {x: 0.000001411438, y: 0.0000040245054, z: -0.000109158755}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000002, y: 1.0000048, z: 1.0000167}
+    - name: Bone_L Finger2_1
+      parentName: Bip001 L Finger1
+      position: {x: 0.000002670288, y: 0.0000039005276, z: -0.0000017940997}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1.0000007, z: 1.0000073}
+    - name: Bip001 L Finger2
+      parentName: Bip001 L Hand
+      position: {x: -0.11701404, y: -0.010334168, z: -0.0103340335}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Finger21
+      parentName: Bip001 L Finger2
+      position: {x: -0.061830748, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bone_L Finger3_2
+      parentName: Bip001 L Finger21
+      position: {x: 0.0000017547607, y: 0.0000039482115, z: -0.000087566375}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000142, y: 1.0000186, z: 1.0000279}
+    - name: Bone_L Finger3_1
+      parentName: Bip001 L Finger2
+      position: {x: 0.0000030136107, y: 0.0000036239624, z: -0.0000016784668}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000048, y: 1.0000125, z: 1.0000277}
+    - name: Bip001 L Finger3
+      parentName: Bip001 L Hand
+      position: {x: -0.116179384, y: -0.0055717467, z: 0.026095323}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Finger31
+      parentName: Bip001 L Finger3
+      position: {x: -0.054699555, y: 0, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bone_L Finger4_2
+      parentName: Bip001 L Finger31
+      position: {x: 0.0000016784668, y: 0.0000036621093, z: -0.00010876655}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000143, y: 1.0000196, z: 1.0000353}
+    - name: Bone_L Finger4_1
+      parentName: Bip001 L Finger3
+      position: {x: 0.0000024795531, y: 0.0000035381315, z: -0.000001630783}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000077, y: 1.0000142, z: 1.0000268}
+    - name: Bip001 L Finger4
+      parentName: Bip001 L Hand
+      position: {x: -0.1155476, y: -0.002004013, z: 0.058793582}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bip001 L Finger41
+      parentName: Bip001 L Finger4
+      position: {x: -0.04751793, y: 0, z: -0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_L Finger5_2
+      parentName: Bip001 L Finger41
+      position: {x: 0.0000012969971, y: 0.000003967285, z: -0.000117406846}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000103, y: 1.0000046, z: 1.000015}
+    - name: Bone_L Finger5_1
+      parentName: Bip001 L Finger4
+      position: {x: 0.0000025939942, y: 0.0000037193297, z: -0.0000016593933}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000002, y: 1.000016, z: 1.0000263}
+    - name: Bone_L Hand
+      parentName: Bip001 L Hand
+      position: {x: 0.0000032043456, y: 0.0000032043456, z: -0.0000013208389}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 0.99999964, y: 1.0000042, z: 1.0000001}
+    - name: Bip001 L ForeTwist
+      parentName: Bip001 L Forearm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bip001 L ForeTwist1
+      parentName: Bip001 L ForeTwist
+      position: {x: -0.087279014, y: 0, z: -0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bone_L Forearm01
+      parentName: Bip001 L ForeTwist
+      position: {x: -0.0000024414062, y: -0.00000071525574, z: 0.000002670288}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000014}
+    - name: Bone_L Forearm02
+      parentName: Bone_L Forearm01
+      position: {x: -0.086925425, y: -0.000000085830685, z: 0.0000002670288}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000159, y: 1.0000225, z: 1.0000278}
+    - name: Bip001 LUpArmTwist
+      parentName: Bip001 L UpperArm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 LUpArmTwist1
+      parentName: Bip001 LUpArmTwist
+      position: {x: -0.13345101, y: -0.000000038146972, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_L UpperArm02
+      parentName: Bip001 LUpArmTwist1
+      position: {x: -0.00019202231, y: -0.00012931823, z: -0.0010258483}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.000008, z: 1.0000086}
+    - name: Bone_L UpperArm01
+      parentName: Bip001 LUpArmTwist
+      position: {x: -0.0000029087066, y: -0.00000020980835, z: 0.000002632141}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000009, y: 1.0000069, z: 1.0000294}
+    - name: Bone_L Clavicle
+      parentName: Bip001 L Clavicle
+      position: {x: -0.041073818, y: -0.0000001335144, z: -0.042649534}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1.0000199, y: 1.0000082, z: 1.0000271}
+    - name: Bip001 R Clavicle
+      parentName: Bip001 Spine1
+      position: {x: -0.23311165, y: -0.02719255, z: -0.02975432}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 R UpperArm
+      parentName: Bip001 R Clavicle
+      position: {x: -0.080235995, y: 0.000000009536743, z: 0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bip001 R Forearm
+      parentName: Bip001 R UpperArm
+      position: {x: -0.26690197, y: 0.000000009536743, z: 0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: Bip001 R Hand
+      parentName: Bip001 R Forearm
+      position: {x: -0.17455803, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bip001 R Finger0
+      parentName: Bip001 R Hand
+      position: {x: -0.04868217, y: 0.018910063, z: 0.06764378}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Bip001 R Finger01
+      parentName: Bip001 R Finger0
+      position: {x: -0.062294614, y: -0.000000076293944, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_R Finger1_2
+      parentName: Bip001 R Finger01
+      position: {x: -0.000000038146972, y: -0.0000001001358, z: 0.000000057220458}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000123, y: 1.0000004, z: 1.0000093}
+    - name: Bone_R Finger1_1
+      parentName: Bip001 R Finger0
+      position: {x: -0.000000114440915, y: -0.000000038146972, z: 0.000000095367426}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000019, y: 1.0000124, z: 0.99999934}
+    - name: Bip001 R Finger1
+      parentName: Bip001 R Hand
+      position: {x: -0.1164294, y: -0.007044754, z: 0.046522062}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 R Finger11
+      parentName: Bip001 R Finger1
+      position: {x: -0.054800034, y: -0.000000076293944, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_R Finger2_2
+      parentName: Bip001 R Finger11
+      position: {x: 0.0000002670288, y: -0.0000003528595, z: 0.00010761738}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000252, y: 1.00002, z: 1.000026}
+    - name: Bone_R Finger2_1
+      parentName: Bip001 R Finger1
+      position: {x: -0, y: 0.00000019073485, z: 0.00000021457672}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000376, y: 1.0000243, z: 1.0000322}
+    - name: Bip001 R Finger2
+      parentName: Bip001 R Hand
+      position: {x: -0.11701412, y: -0.010334168, z: 0.010334024}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Bip001 R Finger21
+      parentName: Bip001 R Finger2
+      position: {x: -0.061830673, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bone_R Finger3_2
+      parentName: Bip001 R Finger21
+      position: {x: 0.0000002670288, y: -0.00000020980835, z: 0.00008603096}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000022, y: 1.0000134, z: 1.0000262}
+    - name: Bone_R Finger3_1
+      parentName: Bip001 R Finger2
+      position: {x: -0, y: 0.00000019073485, z: 0.00000014781952}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000186, y: 1.0000072, z: 1.0000107}
+    - name: Bip001 R Finger3
+      parentName: Bip001 R Hand
+      position: {x: -0.116179384, y: -0.0055717467, z: -0.026095333}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 R Finger31
+      parentName: Bip001 R Finger3
+      position: {x: -0.054699555, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_R Finger4_2
+      parentName: Bip001 R Finger31
+      position: {x: 0.0000003814697, y: -0.00000050544736, z: 0.00010726452}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000304, y: 1.000026, z: 1.0000291}
+    - name: Bone_R Finger4_1
+      parentName: Bip001 R Finger3
+      position: {x: -0, y: 0.000000095367426, z: 0.000000114440915}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000308, y: 1.0000136, z: 1.0000226}
+    - name: Bip001 R Finger4
+      parentName: Bip001 R Hand
+      position: {x: -0.1155476, y: -0.002004013, z: -0.05879357}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 R Finger41
+      parentName: Bip001 R Finger4
+      position: {x: -0.04751804, y: 0, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bone_R Finger5_2
+      parentName: Bip001 R Finger41
+      position: {x: 0.000000076293944, y: -0.0000004196167, z: 0.00011583805}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000256, y: 1.0000138, z: 1.0000274}
+    - name: Bone_R Finger5_1
+      parentName: Bip001 R Finger4
+      position: {x: 0.000000038146972, y: -0.000000057220458, z: 0.0000001001358}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.00002, y: 1.0000066, z: 1.0000159}
+    - name: Bone_R Hand
+      parentName: Bip001 R Hand
+      position: {x: -0, y: 0.000000038146972, z: 0.00000008106232}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000144, y: 1.000019, z: 0.9999998}
+    - name: Bip001 R ForeTwist
+      parentName: Bip001 R Forearm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bip001 R ForeTwist1
+      parentName: Bip001 R ForeTwist
+      position: {x: -0.087279014, y: 0.000000009536743, z: 0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_R Forearm01
+      parentName: Bip001 R ForeTwist
+      position: {x: -0, y: -0.000000009536743, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000256, y: 1.0000055, z: 1.0000143}
+    - name: Bone_R Forearm02
+      parentName: Bone_R Forearm01
+      position: {x: -0.08692539, y: 0.00000015258789, z: 0.000000114440915}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000339, y: 1.0000249, z: 1.0000243}
+    - name: Bip001 RUpArmTwist
+      parentName: Bip001 R UpperArm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 RUpArmTwist1
+      parentName: Bip001 RUpArmTwist
+      position: {x: -0.13345101, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_R UpperArm02
+      parentName: Bip001 RUpArmTwist1
+      position: {x: -0.00018936157, y: -0.00012888908, z: 0.0010287093}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000173, y: 1.0000064, z: 1.0000129}
+    - name: Bone_R UpperArm01
+      parentName: Bip001 RUpArmTwist
+      position: {x: 0.00000015258789, y: -0.000000014305114, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000386, y: 1.0000125, z: 1.0000223}
+    - name: Bone_R Clavicle
+      parentName: Bip001 R Clavicle
+      position: {x: -0.041074753, y: 0.000000085830685, z: 0.042649534}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000362, y: 1.0000217, z: 1.0000359}
+    - name: Bone_Spine1
+      parentName: Bip001 Spine1
+      position: {x: -0.24413826, y: -0.00019438028, z: -0.00000008106232}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000182, y: 1.0000238, z: 1.0000174}
+    - name: Bone_breast
+      parentName: Bone_Spine1
+      position: {x: -0.08737411, y: -0.018414643, z: -0.000000025960698}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000103, y: 0.99999994, z: 1.000008}
+    - name: Bone_Spine
+      parentName: Bip001 Spine
+      position: {x: -0.123755716, y: -0.000098519326, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000014, y: 1.0000181, z: 1.0000138}
+    - name: Bip001 L Thigh
+      parentName: Bip001 Pelvis
+      position: {x: 0.00000015258789, y: 0.00000014781952, z: 0.088767774}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bip001 L Calf
+      parentName: Bip001 L Thigh
+      position: {x: -0.27408466, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bip001 L Foot
+      parentName: Bip001 L Calf
+      position: {x: -0.30117387, y: -0.000000009536743, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 L Toe0
+      parentName: Bip001 L Foot
+      position: {x: -0.09003429, y: 0.13266423, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Bone_L Toe
+      parentName: Bip001 L Toe0
+      position: {x: -0.0000014877319, y: 0.00000015676021, z: 0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000198, y: 1.0000055, z: 1.0000147}
+    - name: Bone_ L Foot
+      parentName: Bip001 L Foot
+      position: {x: 0.0000002002716, y: 0.0000017452239, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000024, y: 0.9999981, z: 1.0000004}
+    - name: Bone_ L Calf01
+      parentName: Bip001 L Calf
+      position: {x: 0.00000057220456, y: 0.0000024795531, z: -0.0000021362305}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000173, y: 1.0000196, z: 1.0000079}
+    - name: Bone_ L Calf02
+      parentName: Bone_ L Calf01
+      position: {x: -0.2114739, y: 0.000000028669408, z: -0.00000017225742}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000153, y: 1.0000173, z: 0.9999983}
+    - name: Bip001 LThighTwist
+      parentName: Bip001 L Thigh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bip001 LThighTwist1
+      parentName: Bip001 LThighTwist
+      position: {x: -0.13704234, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bone_L Thigh02
+      parentName: Bip001 LThighTwist1
+      position: {x: 0.000629158, y: 0.0000014400482, z: -0.0000024890899}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000014, y: 1.0000037, z: 0.99999994}
+    - name: Bone_L Thigh01
+      parentName: Bip001 LThighTwist
+      position: {x: -0.000000114440915, y: 0.00000024318695, z: -0.0000021934509}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000086, y: 1.0000135, z: 1.0000095}
+    - name: Bip001 R Thigh
+      parentName: Bip001 Pelvis
+      position: {x: -0.00000015258789, y: -0.00000009059906, z: -0.088767774}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bip001 R Calf
+      parentName: Bip001 R Thigh
+      position: {x: -0.27408466, y: 0.000000009536743, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bip001 R Foot
+      parentName: Bip001 R Calf
+      position: {x: -0.30117384, y: -0.000000019073486, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 R Toe0
+      parentName: Bip001 R Foot
+      position: {x: -0.09003429, y: 0.13266423, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Bone_R Toe
+      parentName: Bip001 R Toe0
+      position: {x: 0.00000085830686, y: -0.000000076293944, z: 0.000002412796}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000203, y: 1.0000055, z: 1.0000149}
+    - name: Bone_ R Foot
+      parentName: Bip001 R Foot
+      position: {x: -0.000000076293944, y: -0.0000005793571, z: 0.00000012397766}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000024, y: 0.9999981, z: 1.0000004}
+    - name: Bone_ R Calf01
+      parentName: Bip001 R Calf
+      position: {x: -0.00000022888183, y: -0.00000040531157, z: 0.000000114440915}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000249, y: 1.000034, z: 1.0000081}
+    - name: Bone_ R Calf02
+      parentName: Bone_ R Calf01
+      position: {x: -0.2114739, y: -0.00000001101715, z: -0.000000114440915}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000203, y: 1.000016, z: 1.0000032}
+    - name: Bip001 RThighTwist
+      parentName: Bip001 R Thigh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bip001 RThighTwist1
+      parentName: Bip001 RThighTwist
+      position: {x: -0.13704234, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bone_R Thigh02
+      parentName: Bip001 RThighTwist1
+      position: {x: 0.0006292343, y: -0.00000016212464, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000083, y: 1.0000062, z: 1.0000056}
+    - name: Bone_R Thigh01
+      parentName: Bip001 RThighTwist
+      position: {x: -0.000000038146972, y: 0, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999967, y: 1.0000002, z: 1.000003}
+    - name: Bone_Pelvis
+      parentName: Bip001 Pelvis
+      position: {x: -0.08446609, y: -0.0000000047683715, z: 0.00000023841858}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1.0000154, y: 1.0000157, z: 1.0000157}
+    - name: Z_Casual007_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.00000000955023}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual001_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0.000000021073426, z: -0.000000021073426, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual003_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual002_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual002_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual004_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual006_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual004_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual001_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual003_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual004_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual002_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual005_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual005_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual001_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual002_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual003_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual001_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual006_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.0000000093495585}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual001_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual004_bottom
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual005_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual006_bottom
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual007_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_head001
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.0000005865097}
+      rotation: {x: -0.7071066, y: 0.00000016858743, z: 0.00000016858735, w: 0.70710695}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: Z_head002
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.0000005865097}
+      rotation: {x: -0.7071066, y: 0.00000016858743, z: 0.00000016858735, w: 0.70710695}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: Z_head003
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.0000005865097}
+      rotation: {x: -0.7071066, y: 0.00000016858743, z: 0.00000016858735, w: 0.70710695}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: Z_head004
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.0000005769729}
+      rotation: {x: -0.7071066, y: 0.0000001587522, z: -0.0000001784226, w: 0.70710695}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: Z_head005
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.0000005865097}
+      rotation: {x: -0.7071066, y: 0.00000016858743, z: 0.00000016858735, w: 0.70710695}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: Z_Chef_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Chef_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Chef_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Chef_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Doctor_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: z_Doctor_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Doctor_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Doctor_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Firefighter_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Firefighter_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Firefighter_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Firefighter_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mailman_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mailman_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mailman_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mailman_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mascot_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mascot_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mascot_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Nurse_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Nurse_glove
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Nurse_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Patient_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Patient_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Patient_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Patient_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: 0.0027468784, y: 0.009102312, z: -0.000000009138868}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Police_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Police_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Police_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Police_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Police_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Prisoner_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Prisoner_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Prisoner_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Prisoner_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Protective_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Protective_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Protective_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Protective_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009209918}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Soldier_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Soldier_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Soldier_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Soldier_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Student_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Student_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Student_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Student_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Worker_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Worker_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0.0031835937, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Worker_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Worker_accessory01
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000014305114}
+      rotation: {x: -0.7071068, y: 0.000000074458484, z: -0.00000026271636, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Z_Soldier_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Worker_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Worker_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Mailman_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual007_top
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual003_shoes
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual005_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_head006
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.0000005865097}
+      rotation: {x: -0.7071066, y: 0.00000016858743, z: 0.00000016858735, w: 0.70710695}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: Z_Protective_helmet
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Nurse_bottoms
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Chef_accessory01
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Chef_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: -0.000000061817246, z: -0.000000061817246, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Doctor_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Firefighter_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Nurse_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: -2.7021173e-15, z: 0.00000006181724, w: 0.70710677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual005_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70710677, y: 0.00000006181724, z: -2.7021173e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual007_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual004_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual003_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70710677, y: 0.00000006181724, z: -2.7021173e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Student_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual006_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual007_gloves
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0.000000009536743, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Casual002_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_Prisoner_accessory02
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Z_head007
+      parentName: Avatar_Zombie(Clone)
+      position: {x: -0, y: 0, z: -0.0000005865097}
+      rotation: {x: -0.7071066, y: 0.00000016858743, z: 0.00000016858735, w: 0.70710695}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
